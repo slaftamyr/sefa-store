@@ -82,14 +82,14 @@ const ProductsList = ({ setCart, cart }) => {
               <p className="text-gray-600">${product.price}</p>
               <div className="flex items-center space-x-2 mt-2">
                 <button
-                  className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+                  className="bg-pink-700 text-white px-4 py-2 rounded hover:bg-pink-800"
                   onClick={() => handleAddToCart(product)}
                 >
                   +
                 </button>
                 <span className="text-lg">{quantity}</span>  
                 <button
-                  className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+                  className="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600"
                   onClick={() => handleRemoveFromCart(product)}
                 >
                   -
